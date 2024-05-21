@@ -1,37 +1,35 @@
-**Predictive Modeling for Disease Diagnosis
-****Project Overview**
+**Predictive Modeling for Disease Diagnosis**
+**Project Overview**
 Healthcare professionals often rely on various diagnostic tests and biomarkers to assess an individual's health status and diagnose diseases. This project aims to develop a predictive model that can classify individuals as diseased or healthy based on their health attributes. The goal is to create a reliable tool that healthcare providers can use to assist in disease diagnosis and prognosis.
-
 
 **Dataset
 **The dataset consists of multiple health-related attributes such as cholesterol levels, blood cell counts, hormone levels, and other physiological measurements. The target variable is a binary indicator of disease status (1: Diseased, 0: Healthy).
 
 **Attributes:**
-Cholesterol
-Hemoglobin
-Platelets
-White Blood Cells (WBC)
-Red Blood Cells (RBC)
-Hematocrit
-Mean Corpuscular Volume (MCV)
-Mean Corpuscular Hemoglobin (MCH)
-Mean Corpuscular Hemoglobin Concentration (MCHC)
-Insulin
-BMI (Body Mass Index)
-Systolic Blood Pressure (SBP)
-Diastolic Blood Pressure (DBP)
-Triglycerides
-HbA1c (Glycated Hemoglobin)
-LDL (Low-Density Lipoprotein) Cholesterol
-HDL (High-Density Lipoprotein) Cholesterol
-ALT (Alanine Aminotransferase)
-AST (Aspartate Aminotransferase)
-Heart Rate
-Creatinine
-Troponin
-C-reactive Protein (CRP)
+Cholesterol,
+Hemoglobin,
+Platelets,
+White Blood Cells (WBC),
+Red Blood Cells (RBC),
+Hematocrit,
+Mean Corpuscular Volume (MCV),
+Mean Corpuscular Hemoglobin (MCH),
+Mean Corpuscular Hemoglobin Concentration (MCHC),
+Insulin,
+BMI (Body Mass Index),
+Systolic Blood Pressure (SBP),
+Diastolic Blood Pressure (DBP),
+Triglycerides,
+HbA1c (Glycated Hemoglobin),
+LDL (Low-Density Lipoprotein) Cholesterol,
+HDL (High-Density Lipoprotein) Cholesterol,
+ALT (Alanine Aminotransferase),
+AST (Aspartate Aminotransferase),
+Heart Rate,
+Creatinine,
+Troponin,
+C-reactive Protein (CRP),
 Disease (Target: 1 for Diseased, 0 for Healthy)
-
 
 **Load and preprocess data:**
 
